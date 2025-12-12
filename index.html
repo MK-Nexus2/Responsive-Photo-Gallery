@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Photo Gallery</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Responsive Photo Gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <img src="images/img1.jpg" alt="Photo 1">
+        <img src="images/img2.jpg" alt="Photo 2">
+        <img src="images/img3.jpg" alt="Photo 3">
+        <img src="images/img4.jpg" alt="Photo 4">
+        <img src="images/img5.jpg" alt="Photo 5">
+        <img src="images/img6.jpg" alt="Photo 6">
+    </section>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <span class="close" id="closeBtn"><i class="fas fa-times"></i></span>
+        <img class="modal-img" id="modalImg">
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Photo Gallery Project</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
